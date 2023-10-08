@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <title>Interface ISaveData
+ | Safekeeper </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Interface ISaveData
+ | Safekeeper ">
+    <meta property="og:title" content="Interface ISaveData
+ | Safekeeper ">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://safekeeper.aarthificial.com/images/banner.png">
+    <meta property="og:image" content="https://safekeeper.aarthificial.com/images/banner.png">
+    <link rel="icon" href="../../images/favicon.svg">
+    <link rel="stylesheet" href="../../public/docfx.min.css">
+    <link rel="stylesheet" href="../../public/main.css">
+    <meta name="docfx:navrel" content="../../toc.html">
+    <meta name="docfx:tocrel" content="toc.html">
+    
+    <meta name="docfx:rel" content="../../">
+    
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+  <header>
+    <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+      <div class="container-xxl flex-nowrap">
+        <a class="navbar-brand" href="../../index.html">
+          <img id="logo" class="svg" src="../../images/logo.svg" alt="Safekeeper">
+          <img id="logo-dark" class="svg" src="../../images/logo-dark.svg" alt="Safekeeper">
+          <div class="navbar-app-name">
+            Safekeeper
+          </div>
+        </a>
+        <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-three-dots"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navpanel">
+          <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container-xxl">
+    <div class="toc-offcanvas">
+      <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <nav class="toc" id="toc"></nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="actionbar">
+        <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <i class="bi bi-list"></i>
+        </button>
+
+        <nav id="breadcrumb"></nav>
+      </div>
+
+      <article data-uid="Aarthificial.Safekeeper.ISaveData">
+
+
+
+  <h1 id="Aarthificial_Safekeeper_ISaveData" data-uid="Aarthificial.Safekeeper.ISaveData" class="text-break">
+    Interface ISaveData
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Aarthificial.html">Aarthificial</a>.<a class="xref" href="Aarthificial.Safekeeper.html">Safekeeper</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Aarthificial.Safekeeper.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A common interface for representing the save data.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISaveData</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Aarthificial_Safekeeper_ISaveData_GetChunk_" data-uid="Aarthificial.Safekeeper.ISaveData.GetChunk*"></a>
+
+  <h3 id="Aarthificial_Safekeeper_ISaveData_GetChunk_System_String_" data-uid="Aarthificial.Safekeeper.ISaveData.GetChunk(System.String)">
+  GetChunk(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the chunk with the given ID or create a new one if it doesn't exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Dictionary&lt;string, string&gt; GetChunk(string chunkId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chunkId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The chunk ID.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The retrieved chunk.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Aarthificial_Safekeeper_ISaveData_GetChunkIds_" data-uid="Aarthificial.Safekeeper.ISaveData.GetChunkIds*"></a>
+
+  <h3 id="Aarthificial_Safekeeper_ISaveData_GetChunkIds" data-uid="Aarthificial.Safekeeper.ISaveData.GetChunkIds">
+  GetChunkIds()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the IDs of all existing chunks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;string&gt; GetChunkIds()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Aarthificial_Safekeeper_ISaveData_Read_" data-uid="Aarthificial.Safekeeper.ISaveData.Read*"></a>
+
+  <h3 id="Aarthificial_Safekeeper_ISaveData_Read__1_Aarthificial_Safekeeper_SaveLocation_" data-uid="Aarthificial.Safekeeper.ISaveData.Read``1(Aarthificial.Safekeeper.SaveLocation)">
+  Read&lt;T&gt;(SaveLocation)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Read the save data from the given location.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T Read&lt;T&gt;(SaveLocation location) where T : new()</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>location</code> <a class="xref" href="Aarthificial.Safekeeper.SaveLocation.html">SaveLocation</a></dt>
+    <dd><p>The location to read from.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>A new instance of the data type.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Aarthificial_Safekeeper_ISaveData_Read_" data-uid="Aarthificial.Safekeeper.ISaveData.Read*"></a>
+
+  <h3 id="Aarthificial_Safekeeper_ISaveData_Read__1_Aarthificial_Safekeeper_SaveLocation___0_" data-uid="Aarthificial.Safekeeper.ISaveData.Read``1(Aarthificial.Safekeeper.SaveLocation,``0)">
+  Read&lt;T&gt;(SaveLocation, T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Read the save data from the given location into the given target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Read&lt;T&gt;(SaveLocation location, T target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>location</code> <a class="xref" href="Aarthificial.Safekeeper.SaveLocation.html">SaveLocation</a></dt>
+    <dd><p>The location to read from.</p>
+</dd>
+    <dt><code>target</code> <span class="xref">T</span></dt>
+    <dd><p>The target to read into.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether the data was read.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of the data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Aarthificial_Safekeeper_ISaveData_Write_" data-uid="Aarthificial.Safekeeper.ISaveData.Write*"></a>
+
+  <h3 id="Aarthificial_Safekeeper_ISaveData_Write_Aarthificial_Safekeeper_SaveLocation_System_Object_" data-uid="Aarthificial.Safekeeper.ISaveData.Write(Aarthificial.Safekeeper.SaveLocation,System.Object)">
+  Write(SaveLocation, object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Write the given value to the given location.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Write(SaveLocation location, object value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>location</code> <a class="xref" href="Aarthificial.Safekeeper.SaveLocation.html">SaveLocation</a></dt>
+    <dd><p>The location to write to.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value to write.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+    </div>
+
+    <div class="affix">
+      <nav id="affix"></nav>
+    </div>
+  </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+  <footer class="mt-3">
+    <div class="container-xxl">
+      <div class="flex-fill">
+        <small class='text-secondary'>
+        Copyright © 2023 <a class="external" href="https://aarthificial.com" target='_blank'>aarthificial</a>.
+        Built with <a class="external" href="https://dotnet.github.io/docfx" target='_blank'>docfx</a>
+        </small>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>

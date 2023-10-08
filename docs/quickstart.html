@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <title>Quickstart | Safekeeper </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Quickstart | Safekeeper ">
+    <meta property="og:title" content="Quickstart | Safekeeper ">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://safekeeper.aarthificial.com/images/banner.png">
+    <meta property="og:image" content="https://safekeeper.aarthificial.com/images/banner.png">
+    <link rel="icon" href="../images/favicon.svg">
+    <link rel="stylesheet" href="../public/docfx.min.css">
+    <link rel="stylesheet" href="../public/main.css">
+    <meta name="docfx:navrel" content="../toc.html">
+    <meta name="docfx:tocrel" content="toc.html">
+    
+    <meta name="docfx:rel" content="../">
+    
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+  <header>
+    <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+      <div class="container-xxl flex-nowrap">
+        <a class="navbar-brand" href="../index.html">
+          <img id="logo" class="svg" src="../images/logo.svg" alt="Safekeeper">
+          <img id="logo-dark" class="svg" src="../images/logo-dark.svg" alt="Safekeeper">
+          <div class="navbar-app-name">
+            Safekeeper
+          </div>
+        </a>
+        <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-three-dots"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navpanel">
+          <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container-xxl">
+    <div class="toc-offcanvas">
+      <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <nav class="toc" id="toc"></nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="actionbar">
+        <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <i class="bi bi-list"></i>
+        </button>
+
+        <nav id="breadcrumb"></nav>
+      </div>
+
+      <article data-uid="">
+<h1 id="quickstart">Quickstart</h1>
+
+<div class="WARNING">
+<h5>Warning</h5>
+<p>The documentation is far from being complete and will be worked on in the
+following weeks. If you have any questions or need help, please reach out on
+our <a href="https://www.patreon.com/posts/patron-only-53003221">Discord server</a>.</p>
+</div>
+<h2 id="installation">Installation</h2>
+<p>After <a href="https://www.patreon.com/posts/typewriter-early-86967465">getting access to our GitHub organization</a>, you will be
+able to install Safekeeper through Unity's Package Manager.</p>
+<ol>
+<li><p>Click the &quot;+&quot; button in the top left corner and select &quot;Add package from git
+URL...&quot;:</p>
+<p><img src="/images/package-manager-add.png" alt="The &quot;add&quot; dropdown in Unity's Package Manager"></p>
+</li>
+<li><p>Paste the following URL into the input field:</p>
+<pre><code class="lang-text">https://github.com/aarthificial-gamedev/safekeeper.git
+</code></pre>
+<p><img src="/images/package-manager-path.png" alt="The git URL input in Unity's Package Manager"></p>
+</li>
+</ol>
+<p>If you encounter any problems please refer to the <a href="https://docs.unity3d.com/Manual/upm-ui-giturl.html">Unity's installation
+guide</a> or reach out on our <a href="https://www.patreon.com/posts/patron-only-53003221">Discord server</a>.</p>
+<h2 id="getting-started">Getting started</h2>
+<p>The package comes with a Visual Novel sample that shows how to implement a
+simple text-based dialogue system with multiple choices. You can import it from
+the Package Manager:</p>
+<p><img src="/images/package-manager-samples.png" alt="The git URL input in Unity's Package Manager"></p>
+<p>Open the <code>SampleScene</code> located in the
+<code>Assets/Samples/Typewriter/&lt;version&gt;/VisualNovel/Scenes</code> directory and press
+play. You'll be presented with multiple buttons that demonstrate different types
+of conversations:</p>
+<ul>
+<li><strong>Linear</strong> showcases a simple, linear dialogue.</li>
+<li><strong>Choices</strong> presents the player with a choice.</li>
+<li><strong>Contextual</strong> changes the dialogue based on the context.</li>
+</ul>
+<p>You can open the Safekeeper Editor using <code>Tools &gt; Safekeeper</code> and
+explore the entries that make up the dialogue. For clarity, each conversation
+has been placed in its own table.</p>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+    </div>
+
+    <div class="affix">
+      <nav id="affix"></nav>
+    </div>
+  </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+  <footer class="mt-3">
+    <div class="container-xxl">
+      <div class="flex-fill">
+        <small class='text-secondary'>
+        Copyright © 2023 <a class="external" href="https://aarthificial.com" target='_blank'>aarthificial</a>.
+        Built with <a class="external" href="https://dotnet.github.io/docfx" target='_blank'>docfx</a>
+        </small>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
