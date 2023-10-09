@@ -1,0 +1,454 @@
+{
+  "source_base_path": "/github/workspace/.docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "CNAME",
+      "output": {
+        "resource": {
+          "relative_path": "CNAME"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/editor/Aarthificial.Safekeeper.Editor.AssetLocationAttributePropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/editor/Aarthificial.Safekeeper.Editor.AssetLocationAttributePropertyDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/editor/Aarthificial.Safekeeper.Editor.ObjectLocationAttributePropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/editor/Aarthificial.Safekeeper.Editor.ObjectLocationAttributePropertyDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/editor/Aarthificial.Safekeeper.Editor.SafekeeperEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/editor/Aarthificial.Safekeeper.Editor.SafekeeperEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/editor/Aarthificial.Safekeeper.Editor.SaveLocationModificationProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/editor/Aarthificial.Safekeeper.Editor.SaveLocationModificationProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/editor/Aarthificial.Safekeeper.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/editor/Aarthificial.Safekeeper.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/editor/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/editor/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/editor/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.Attributes.AssetLocationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.Attributes.AssetLocationAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.Attributes.ObjectLocationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.Attributes.ObjectLocationAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.Attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.ISaveData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.ISaveData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.Loaders.DummySaveLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.Loaders.DummySaveLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.Loaders.FileSaveLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.Loaders.FileSaveLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.Loaders.ISaveLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.Loaders.ISaveLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.Loaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.Loaders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.SaveControllerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.SaveControllerBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.SaveData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.SaveData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.SaveLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.SaveLocation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.SaveMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.SaveMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.Stores.ISaveStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.Stores.ISaveStore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.Stores.SaveStoreDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.Stores.SaveStoreDispatcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.Stores.SaveStoreRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.Stores.SaveStoreRegistry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.Stores.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.Stores.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/runtime/Aarthificial.Safekeeper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/Aarthificial.Safekeeper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/runtime/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/runtime/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/api/editor/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/editor/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/api/runtime/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/runtime/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "docs/concepts.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/concepts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/example.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/example.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/installation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/banner.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/banner.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo-dark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo-dark.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logotype-dark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logotype-dark.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logotype.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logotype.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/package-manager-add.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/package-manager-add.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/package-manager-path.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/package-manager-path.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/package-manager-samples.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/package-manager-samples.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
