@@ -225,15 +225,6 @@ references:
   isSpec: "True"
   fullName: Aarthificial.Safekeeper.ISaveData.Read
   nameWithType: ISaveData.Read
-- uid: Aarthificial.Safekeeper.ISaveData.Read``1(Aarthificial.Safekeeper.SaveLocation)
-  name: Read<T>(SaveLocation)
-  href: api/runtime/Aarthificial.Safekeeper.ISaveData.html#Aarthificial_Safekeeper_ISaveData_Read__1_Aarthificial_Safekeeper_SaveLocation_
-  commentId: M:Aarthificial.Safekeeper.ISaveData.Read``1(Aarthificial.Safekeeper.SaveLocation)
-  name.vb: Read(Of T)(SaveLocation)
-  fullName: Aarthificial.Safekeeper.ISaveData.Read<T>(Aarthificial.Safekeeper.SaveLocation)
-  fullName.vb: Aarthificial.Safekeeper.ISaveData.Read(Of T)(Aarthificial.Safekeeper.SaveLocation)
-  nameWithType: ISaveData.Read<T>(SaveLocation)
-  nameWithType.vb: ISaveData.Read(Of T)(SaveLocation)
 - uid: Aarthificial.Safekeeper.ISaveData.Read``1(Aarthificial.Safekeeper.SaveLocation,``0)
   name: Read<T>(SaveLocation, T)
   href: api/runtime/Aarthificial.Safekeeper.ISaveData.html#Aarthificial_Safekeeper_ISaveData_Read__1_Aarthificial_Safekeeper_SaveLocation___0_
@@ -243,6 +234,15 @@ references:
   fullName.vb: Aarthificial.Safekeeper.ISaveData.Read(Of T)(Aarthificial.Safekeeper.SaveLocation, T)
   nameWithType: ISaveData.Read<T>(SaveLocation, T)
   nameWithType.vb: ISaveData.Read(Of T)(SaveLocation, T)
+- uid: Aarthificial.Safekeeper.ISaveData.Read``1(Aarthificial.Safekeeper.SaveLocation)
+  name: Read<T>(SaveLocation)
+  href: api/runtime/Aarthificial.Safekeeper.ISaveData.html#Aarthificial_Safekeeper_ISaveData_Read__1_Aarthificial_Safekeeper_SaveLocation_
+  commentId: M:Aarthificial.Safekeeper.ISaveData.Read``1(Aarthificial.Safekeeper.SaveLocation)
+  name.vb: Read(Of T)(SaveLocation)
+  fullName: Aarthificial.Safekeeper.ISaveData.Read<T>(Aarthificial.Safekeeper.SaveLocation)
+  fullName.vb: Aarthificial.Safekeeper.ISaveData.Read(Of T)(Aarthificial.Safekeeper.SaveLocation)
+  nameWithType: ISaveData.Read<T>(SaveLocation)
+  nameWithType.vb: ISaveData.Read(Of T)(SaveLocation)
 - uid: Aarthificial.Safekeeper.ISaveData.Write(Aarthificial.Safekeeper.SaveLocation,System.Object)
   name: Write(SaveLocation, object)
   href: api/runtime/Aarthificial.Safekeeper.ISaveData.html#Aarthificial_Safekeeper_ISaveData_Write_Aarthificial_Safekeeper_SaveLocation_System_Object_
@@ -764,15 +764,6 @@ references:
   isSpec: "True"
   fullName: Aarthificial.Safekeeper.SaveData.Read
   nameWithType: SaveData.Read
-- uid: Aarthificial.Safekeeper.SaveData.Read``1(Aarthificial.Safekeeper.SaveLocation)
-  name: Read<T>(SaveLocation)
-  href: api/runtime/Aarthificial.Safekeeper.SaveData.html#Aarthificial_Safekeeper_SaveData_Read__1_Aarthificial_Safekeeper_SaveLocation_
-  commentId: M:Aarthificial.Safekeeper.SaveData.Read``1(Aarthificial.Safekeeper.SaveLocation)
-  name.vb: Read(Of T)(SaveLocation)
-  fullName: Aarthificial.Safekeeper.SaveData.Read<T>(Aarthificial.Safekeeper.SaveLocation)
-  fullName.vb: Aarthificial.Safekeeper.SaveData.Read(Of T)(Aarthificial.Safekeeper.SaveLocation)
-  nameWithType: SaveData.Read<T>(SaveLocation)
-  nameWithType.vb: SaveData.Read(Of T)(SaveLocation)
 - uid: Aarthificial.Safekeeper.SaveData.Read``1(Aarthificial.Safekeeper.SaveLocation,``0)
   name: Read<T>(SaveLocation, T)
   href: api/runtime/Aarthificial.Safekeeper.SaveData.html#Aarthificial_Safekeeper_SaveData_Read__1_Aarthificial_Safekeeper_SaveLocation___0_
@@ -782,6 +773,15 @@ references:
   fullName.vb: Aarthificial.Safekeeper.SaveData.Read(Of T)(Aarthificial.Safekeeper.SaveLocation, T)
   nameWithType: SaveData.Read<T>(SaveLocation, T)
   nameWithType.vb: SaveData.Read(Of T)(SaveLocation, T)
+- uid: Aarthificial.Safekeeper.SaveData.Read``1(Aarthificial.Safekeeper.SaveLocation)
+  name: Read<T>(SaveLocation)
+  href: api/runtime/Aarthificial.Safekeeper.SaveData.html#Aarthificial_Safekeeper_SaveData_Read__1_Aarthificial_Safekeeper_SaveLocation_
+  commentId: M:Aarthificial.Safekeeper.SaveData.Read``1(Aarthificial.Safekeeper.SaveLocation)
+  name.vb: Read(Of T)(SaveLocation)
+  fullName: Aarthificial.Safekeeper.SaveData.Read<T>(Aarthificial.Safekeeper.SaveLocation)
+  fullName.vb: Aarthificial.Safekeeper.SaveData.Read(Of T)(Aarthificial.Safekeeper.SaveLocation)
+  nameWithType: SaveData.Read<T>(SaveLocation)
+  nameWithType.vb: SaveData.Read(Of T)(SaveLocation)
 - uid: Aarthificial.Safekeeper.SaveData.Write(Aarthificial.Safekeeper.SaveLocation,System.Object)
   name: Write(SaveLocation, object)
   href: api/runtime/Aarthificial.Safekeeper.SaveData.html#Aarthificial_Safekeeper_SaveData_Write_Aarthificial_Safekeeper_SaveLocation_System_Object_

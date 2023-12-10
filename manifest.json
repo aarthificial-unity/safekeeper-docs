@@ -1,4 +1,5 @@
 {
+  "homepages": [],
   "source_base_path": "/github/workspace/.docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -287,6 +288,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Conceptual",
       "source_relative_path": "docs/concepts.md",
       "output": {
@@ -443,6 +447,7 @@
       "version": ""
     }
   ],
+  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
